@@ -1,0 +1,50 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+      .ol-scale-bar-inverted .ol-scale-singlebar-even {
+        background-color: var(--ol-background-color);
+      }
+
+      .ol-scale-bar-inverted .ol-scale-singlebar-odd {
+        background-color: var(--ol-subtle-foreground-color);;
+      }
+
+      /* .rotate-north {
+        top: 65px;
+        left: .5em;
+      }
+      .ol-touch .rotate-north {
+        top: 80px;
+      } */
+/* Style for the container of the controls */
+.draw-point {
+  top: 300px;
+        left: .5em;
+}
+.draw-polygon {
+  top: 325px;
+        left: .5em;
+}
+.draw-polyline {
+  top: 350px;
+        left: .5em;
+}
+.draw-circle {
+  top: 375px;
+        left: .5em;
+}
+
+
+
+
