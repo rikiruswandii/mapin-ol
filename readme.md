@@ -1,18 +1,59 @@
-# OpenLayers + Vite
+# mapin-ol: OpenLayers + Vite
 
-This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
+Proyek **mapin-ol** adalah proyek pembelajaran penggunaan OpenLayers dengan Vite. Proyek ini mencakup berbagai fitur kontrol peta untuk memperluas pemahaman tentang library OpenLayers dalam pengembangan peta interaktif.
 
-To get started, run the following (requires Node 14+):
+## Persyaratan
+- Node.js 14 atau lebih baru
 
-    npx create-ol-app my-app --template vite
+## Memulai Proyek
+Untuk memulai proyek ini, jalankan perintah berikut:
 
-Then change into your new `my-app` directory and start a development server (available at http://localhost:5173):
+```bash
+npx create-ol-app mapin-ol --template vite
+```
 
-    cd my-app
-    npm start
+Kemudian masuk ke dalam direktori `mapin-ol` dan mulai server pengembangan (tersedia di http://localhost:5173):
 
-To generate a build ready for production:
+```bash
+cd mapin-ol
+npm start
+```
 
-    npm run build
+## Build untuk Produksi
+Untuk menghasilkan build yang siap digunakan dalam produksi:
 
-Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+```bash
+npm run build
+```
+
+Kemudian deploy isi dari direktori `dist` ke server Anda. Anda juga dapat menggunakan:
+
+```bash
+npm run serve
+```
+
+untuk menampilkan hasil build secara lokal sebagai pratinjau.
+
+## Fitur
+Proyek ini mendukung berbagai fitur peta interaktif menggunakan OpenLayers:
+
+- **Control Zoom**: Kontrol untuk memperbesar dan memperkecil peta.
+- **Drag Control Zoom**: Zoom dengan metode drag pada peta.
+- **Control Draw**:
+  - Marker (Titik)
+  - Polyline (Garis)
+  - Polygon (Poligon)
+  - Circle (Lingkaran)
+- **Control Scale**: Menampilkan skala peta.
+- **Control Full Screen**: Mode layar penuh untuk peta.
+- **Drag and Drop Feature Support**:
+  - GeoJSON
+  - TopoJSON
+  - GPX
+  - KML
+  - KMZ
+  - IGC
+
+## Lisensi
+Proyek ini dikembangkan untuk keperluan pembelajaran dan bersifat terbuka untuk dikembangkan lebih lanjut.
+
